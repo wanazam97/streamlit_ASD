@@ -5,7 +5,10 @@ Created on Fri Mar  8 01:21:15 2024
 @author: Ijat
 """
 
-pip install -r requirements.txt
+import subprocess
+
+# Install dependencies from requirements.txt
+subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
 
 import streamlit as st
 import numpy as np
