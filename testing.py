@@ -5,6 +5,8 @@ Created on Fri Mar  8 01:21:15 2024
 @author: Ijat
 """
 
+pip install -r requirements.txt
+
 import streamlit as st
 import numpy as np
 import tensorflow as tf
