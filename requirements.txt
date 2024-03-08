@@ -7,3 +7,4 @@ prophet
 tensorflow
 joblib 
 numpy
+scikit-learn
